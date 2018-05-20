@@ -29,7 +29,7 @@ export default (tabs, configuration = {}, Iconclass = Ionicons) =>
                 size={28}
                 style={{ marginBottom: -3 }}
                 color={
-                  options.focused ? Theme.colorAccent : Theme.tabIconDefault
+                  options.focused ? Theme.colors.accent : Theme.colors.tabIconDefault
                 }
               />
             )
